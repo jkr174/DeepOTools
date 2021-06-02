@@ -38,6 +38,7 @@ namespace DeepOTools
                 name: "default",
                 template: "{controller=Inventory}/{action=List}/{id?}");
             });
+            SeedData.EnsurePopulated(app);
         }
     }
 }
